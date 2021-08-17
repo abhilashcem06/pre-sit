@@ -117,6 +117,7 @@ public class ShopViewController {
  
     @PostMapping("/createShops")  
     public boolean saveShops(@RequestBody Shops shop) {  
+//Changes for adding product based on shopregID 
     	System.out.println("Shop Name:     "+shop.getShopName());
     	System.out.println("Shop Reg ID:    "+shop.getShopRegId());
     	System.out.println("Shop Type:     "+shop.getShopType());
